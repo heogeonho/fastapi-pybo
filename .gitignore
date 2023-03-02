@@ -3,4 +3,4 @@ myapi.db
 *.pyc
 __pycache__
 migrations
-alembic.inigit add *
+alembic.ini
