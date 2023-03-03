@@ -2,7 +2,7 @@
     import fastapi from "../lib/api"
     import { link } from 'svelte-spa-router'
     import { page, keyword, is_login } from "../lib/store"
-    import moment from 'moment/min/moment-with-locales'
+    import moment from 'moment'
     moment.locale('ko')
 
     let question_list = []
